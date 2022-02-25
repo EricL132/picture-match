@@ -1,0 +1,92 @@
+.mid-con {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.align-horz {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.center-text {
+    text-align: center;
+}
+
+.margin-10px {
+    margin: 10px;
+}
+
+.card {
+    background-color: white;
+    width: 20%;
+    height: 120px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: rotateY(180deg);
+}
+
+.card-con {
+    margin-top: 5rem;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.win-con {
+    background-color: #eee;
+    width: fit-content;
+    color: black;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    top: 120px;
+}
+
+.flex-mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-button {
+    margin-top: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.15s ease-in;
+    z-index: 1;
+    padding: 10px 15px;
+    border: none;
+    outline: 1px solid #a33ae0;
+}
+
+.d-button:hover,
+.d-button:focus {
+    box-shadow: inset 7em 0 0 0 #c486e8;
+}
+
+@media (max-width: 1000px) {
+    .card-con {
+        width: 100vw;
+    }
+}
+
+@media (max-width: 400px) {
+    .card {
+        width: 30%;
+    }
+}
