@@ -10,5 +10,5 @@ npm run start
 ```
 # Built In
 - JavaScript
+- HTML/CSS
 - React
-- HTML5/CSS3
